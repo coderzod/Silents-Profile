@@ -1,2 +1,2 @@
 # customsite
-I got bored &amp; wanted to make a custom guns.lol type of website! :D
+Custom sort of guns.lol website I have for myself, its just another type of "profile" I have.
