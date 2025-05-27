@@ -124,35 +124,14 @@
       class="profile-image" 
       src="237698.jpg" 
       alt="Custom Profile Picture">
-    <p class="status">Hi guys i'm Nathan & I love technology & my friends</p>
+    <p class="status">Hi guys i'm silent and i love tech :D</p>
     <p class="bio">
       Web Developer
     </p>
   </div>
   
   <footer>
-    Created by silenthill | I love u all | Credits 2 Chopin8 for the background art
+    Created by silent | Credits 2 Chopin8 for the background art
   </footer>
-
-  <div class="counter" id="counter">Views: 0</div>
-
-  <script>
-    // if anyone reads this and knows how to improve this please dm me I lowey struggle so hard with this 
-    // discord : @skibkitty
-    let views = localStorage.getItem('views');
-    const deviceKey = 'hasVisitedDevice';  
-
-    if (!views) {
-      views = 0;
-    }
-
-    if (!localStorage.getItem(deviceKey)) {
-      views++; 
-      localStorage.setItem('views', views);  
-      localStorage.setItem(deviceKey, 'true');  
-    }
-
-    document.getElementById('counter').textContent = `Views: ${views}`;
-  </script>
 </body>
 </html>
